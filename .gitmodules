@@ -1,0 +1,6 @@
+[submodule "backend"]
+	path = backend
+	url = git@github.com:stnma7e/salesloft-coding-challenge-backend.git
+[submodule "frontend"]
+	path = frontend
+	url = git@github.com:stnma7e/salesloft-coding-challenge-frontend.git
