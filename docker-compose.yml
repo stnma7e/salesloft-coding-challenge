@@ -2,6 +2,8 @@ version: "3.9"
 services:
   backend:
     build: ./backend
+    environment:
+      - SALESLOFT_APPLICATION_SECRET=YOUR_API_KEY
     ports:
       - "8080:8080"
   frontend:
